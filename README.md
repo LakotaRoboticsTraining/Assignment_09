@@ -2,7 +2,7 @@
 
 Goal: Create a subclass that extends a parent class, reuse its fields/methods, and add or replace behavior.
 
-Time: About 40–50 minutes
+Time: About 40-50 minutes
 
 You will learn:
 
@@ -17,7 +17,7 @@ The extends keyword
 @Override to replace a parent method
 ```
 
-Before this lesson: Lessons 7–8 (classes, objects, constructors).
+Before this lesson: Lessons 7-8 (classes, objects, constructors).
 
 ### Why this matters for robots
 
@@ -131,7 +131,7 @@ System.out.println(side + " Falcon (CAN " + canId + ") speed = " + speed);
 
 ### “Is a” vs “has a”
 
-Robot code uses both. Do not extend just to share a helper — prefer a field if it is not truly "a kind of."
+Robot code uses both. Do not extend just to share a helper - prefer a field if it is not truly "a kind of."
 
 ### Common mistakes
 
@@ -139,26 +139,26 @@ Robot code uses both. Do not extend just to share a helper — prefer a field if
 
 2. super not first in the constructor
 
-3. Wrong mental model — subclass is not a copy-paste folder; it is the parent type plus extras
+3. Wrong mental model - subclass is not a copy-paste folder; it is the parent type plus extras
 
 4. Overriding without matching the method signature (name + parameters)
 
-5. Deep inheritance trees — keep it shallow for now (one parent is enough)
+5. Deep inheritance trees - keep it shallow for now (one parent is enough)
 
 ## Try it yourself
 
 `Game` and `Arcade` are provided. You write the subclasses.
 
-### Challenge 1 â€” Extend
+### Challenge 1 - Extend
 
 Create `VideoGame extends Game` and `Pinball extends Game`.  
 Each constructor takes `(String name, int year, String type)` and calls `super(...)`.
 
-### Challenge 2 â€” Inherited members
+### Challenge 2 - Inherited members
 
 In `Main`, store subclass objects in `Game` variables, add them to an `Arcade` library, and call `listGameLibrary()`.
 
-### Challenge 3 â€” Override play
+### Challenge 3 - Override play
 
 `@Override play()` on both subclasses:
 
@@ -194,7 +194,7 @@ Answers
 
 3. Marks that you are replacing a parent method; helps catch mistakes.
 
-4. Yes — that is the "is a" relationship.
+4. Yes - that is the "is a" relationship.
 
 ### Looking ahead
 
