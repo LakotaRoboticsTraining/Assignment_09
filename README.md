@@ -167,36 +167,26 @@ In `Main`, store subclass objects in `Game` variables, add them to an `Arcade` l
 
 Call `play()` on both from `Main`.
 
-### Check your understanding
+## Check your understanding
 
-```java
-1. What does extends mean?
-2. What does super
+1. <details>
+     <summary>What does `extends` mean?</summary>
+     This class is a subclass of the named parent.
+   </details>
+2. <details>
+     <summary>What does `super(side, speed)` do?</summary>
+     Runs the parent constructor to set up parent fields.
+   </details>
+3. <details>
+     <summary>Why use `@Override`?</summary>
+     Marks that you are replacing a parent method; helps catch mistakes.
+   </details>
+4. <details>
+     <summary>Is `FalconMotor` a `Motor`?</summary>
+     Yes - that is the "is a" relationship.
+   </details>
 
----
-```
-
-(side, speed) do?
-
-```java
-3. Why use @Override?
-```
-
-4. Is FalconMotor a Motor?
-
----
-
-Answers
-
-1. This class is a subclass of the named parent.
-
-2. Runs the parent constructor to set up parent fields.
-
-3. Marks that you are replacing a parent method; helps catch mistakes.
-
-4. Yes - that is the "is a" relationship.
-
-### Looking ahead
+## Looking ahead
 
 In Lesson 10, you will use polymorphism: treating a FalconMotor as a Motor so one list or one method can work with many specific types.
 
