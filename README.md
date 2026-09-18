@@ -129,7 +129,7 @@ System.out.println(side + " Falcon (CAN " + canId + ") speed = " + speed);
 @Override tells Java (and teammates): "I meant to replace the parent method." If you typo the name, the compiler can catch it.
 ```
 
-### “Is a” vs “has a”
+### "Is a" vs "has a"
 
 Robot code uses both. Do not extend just to share a helper - prefer a field if it is not truly "a kind of."
 
@@ -147,7 +147,9 @@ Robot code uses both. Do not extend just to share a helper - prefer a field if i
 
 ## Try it yourself
 
-`Game` and `Arcade` are provided. You write the subclasses.
+`Game` and `Arcade` are provided. Edit `VideoGame.java`, `Pinball.java`, and `Main.java` as described in the challenges.
+
+Do **not** edit `ArcadeInheritanceTest.java` - that file checks your work automatically when you open a pull request.
 
 ### Challenge 1 - Extend
 
