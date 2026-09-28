@@ -147,9 +147,9 @@ Robot code uses both. Do not extend just to share a helper - prefer a field if i
 
 ## Try it yourself
 
-`Game` and `Arcade` are provided. Edit `VideoGame.java`, `Pinball.java`, and `Main.java` as described in the challenges.
+`Game` and `Arcade` are provided. Edit `src/main/java/VideoGame.java`, `src/main/java/Pinball.java`, and `src/main/java/Main.java` as described in the challenges.
 
-Do **not** edit `ArcadeInheritanceTest.java` - that file checks your work automatically when you open a pull request.
+Do **not** edit `src/test/java/ArcadeInheritanceTest.java` - that file checks your work automatically when you open a pull request.
 
 ### Challenge 1 - Extend
 
