@@ -147,6 +147,9 @@ Robot code uses both. Do not extend just to share a helper - prefer a field if i
 
 ## Try it yourself
 
+> **Find your starter files:** In the file explorer, open `src` â†’ `main` â†’ `java`. Edit `VideoGame.java`, `Pinball.java`, and `Main.java` there.
+> Do **not** create new Java files at the top of the repo.
+
 `Game` and `Arcade` are provided. Edit `src/main/java/VideoGame.java`, `src/main/java/Pinball.java`, and `src/main/java/Main.java` as described in the challenges.
 
 Do **not** edit `src/test/java/ArcadeInheritanceTest.java` - that file checks your work automatically when you open a pull request.
